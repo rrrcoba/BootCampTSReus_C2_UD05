@@ -17,11 +17,11 @@ public class TA05 {
 	}
 	
 	/**
-	 * This method asks the user what exercice wants to execute
+	 * This method asks the user what exercise wants to execute
 	 */
 	public static int menu() {
 		
-		String exerciceNumber = JOptionPane.showInputDialog("Write the number of the exercice you want to execute. "
+		String exerciceNumber = JOptionPane.showInputDialog("Write the number of the exercise you want to execute. "
 				+ "If you want to end the program write 0 .");
 		
 		switch (exerciceNumber) {
@@ -110,7 +110,7 @@ public class TA05 {
 		System.out.println("The biggest of them is: "+Math.max(x, y)+" because the values are equal.");
 		
 		//End of this method
-		System.out.println("End of Exercice 1");
+		System.out.println("End of Exercise 1");
 		
 		menu();
 	}
@@ -127,7 +127,7 @@ public class TA05 {
 		System.out.println("Bienvenido "+name);
 		
 		//End of this method
-		System.out.println("End of Exercice 2");
+		System.out.println("End of Exercise 2");
 		
 		menu();
 	}
@@ -144,7 +144,7 @@ public class TA05 {
 		System.out.println("Bienvenido "+name);
 		
 		//End of this method
-		System.out.println("End of Exercice 3");
+		System.out.println("End of Exercise 3");
 		
 		menu();
 	}
@@ -165,7 +165,7 @@ public class TA05 {
 		System.out.println("The area of the circle with the radius given is: "+a);
 		
 		//End of this method
-		System.out.println("End of Exercice 4");
+		System.out.println("End of Exercise 4");
 		
 		menu();
 	}
@@ -189,7 +189,7 @@ public class TA05 {
 		}
 		
 		//End of this method
-		System.out.println("End of Exercice 5");
+		System.out.println("End of Exercise 5");
 		
 		menu();
 	}
@@ -214,7 +214,7 @@ public class TA05 {
 		System.out.println("The price with IVA is: "+finalPrice);
 		
 		//End of this method
-		System.out.println("End of Exercice 6");
+		System.out.println("End of Exercise 6");
 		
 		menu();
 	}
@@ -232,7 +232,7 @@ public class TA05 {
 		}
 		
 		//End of this method
-		System.out.println("End of Exercice 7");
+		System.out.println("End of Exercise 7");
 		
 		menu();
 	}
@@ -248,7 +248,7 @@ public class TA05 {
 		}
 		
 		//End of this method
-		System.out.println("End of Exercice 8");
+		System.out.println("End of Exercise 8");
 		
 		menu();
 	}
@@ -266,7 +266,7 @@ public class TA05 {
 		}
 		
 		//End of this method
-		System.out.println("End of Exercice 9");
+		System.out.println("End of Exercise 9");
 		
 		menu();
 	}
@@ -293,7 +293,7 @@ public class TA05 {
 		System.out.println("The total price is: "+s);
 		
 		//End of this method
-		System.out.println("End of Exercice 10");
+		System.out.println("End of Exercise 10");
 		
 		menu();
 	}
@@ -335,7 +335,7 @@ public class TA05 {
 		}
 		
 		//End of this method
-		System.out.println("End of Exercice 11");
+		System.out.println("End of Exercise 11");
 		
 		menu();
 	}
@@ -364,7 +364,7 @@ public class TA05 {
 		}
 		
 		//End of this method
-		System.out.println("End of Exercice 12");
+		System.out.println("End of Exercise 12");
 		
 		menu();
 	}
@@ -414,7 +414,7 @@ public class TA05 {
 		}
 		
 		//End of this method
-		System.out.println("End of Exercice 13");
+		System.out.println("End of Exercise 13");
 		
 		menu();
 	}
