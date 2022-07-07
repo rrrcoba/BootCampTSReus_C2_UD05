@@ -390,27 +390,27 @@ public class TA05 {
 		
 		//We do a switch-case for all the operators
 		switch (op) {
-		case "+":
-			System.out.println("The result for "+n1+op+n2+" is "+(n1+n2));
-			break;
-		case "-":
-			System.out.println("The result for "+n1+op+n2+" is "+(n1-n2));
-			break;
-		case "*":
-			System.out.println("The result for "+n1+op+n2+" is "+(n1*n2));
-			break;
-		case "/":
-			System.out.println("The result for "+n1+op+n2+" is "+(n1/n2));
-			break;
-		case "^":
-			System.out.println("The result for "+n1+op+n2+" is "+(Math.pow(n1, n2)));
-			break;
-		case "%":
-			System.out.println("The result for "+n1+op+n2+" is "+(n1%n2));
-			break;
-		default:
-			System.out.println("Incorrect value.");
-			System.out.println("End of the program.");
+			case "+":
+				System.out.println("The result for "+n1+op+n2+" is "+(n1+n2));
+				break;
+			case "-":
+				System.out.println("The result for "+n1+op+n2+" is "+(n1-n2));
+				break;
+			case "*":
+				System.out.println("The result for "+n1+op+n2+" is "+(n1*n2));
+				break;
+			case "/":
+				System.out.println("The result for "+n1+op+n2+" is "+(n1/n2));
+				break;
+			case "^":
+				System.out.println("The result for "+n1+op+n2+" is "+(Math.pow(n1, n2)));
+				break;
+			case "%":
+				System.out.println("The result for "+n1+op+n2+" is "+(n1%n2));
+				break;
+			default:
+				System.out.println("Incorrect value.");
+				System.out.println("End of the program.");
 		}
 		
 		//End of this method
